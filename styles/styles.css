@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "TT Norms";
+  src: url("TTNorms-Medium.eot");
+  src: url("TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("TTNorms-Medium.woff2") format("woff2"), url("TTNorms-Medium.woff") format("woff"), url("TTNorms-Medium.ttf") format("truetype"), url("TTNorms-Medium.svg#TTNorms-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("TTNorms-Regular.eot");
+  src: url("TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("TTNorms-Regular.woff2") format("woff2"), url("TTNorms-Regular.woff") format("woff"), url("TTNorms-Regular.ttf") format("truetype"), url("TTNorms-Regular.svg#TTNorms-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url("TTNorms-Bold.eot");
+  src: url("TTNorms-Bold.eot?#iefix") format("embedded-opentype"), url("TTNorms-Bold.woff2") format("woff2"), url("TTNorms-Bold.woff") format("woff"), url("TTNorms-Bold.ttf") format("truetype"), url("TTNorms-Bold.svg#TTNorms-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
@@ -12,27 +36,62 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "TT Norms";
-  src: url("../../../TTNorms-Medium.eot");
-  src: url("../../TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("../../TTNorms-Medium.woff2") format("woff2"), url("../../TTNorms-Medium.woff") format("woff"), url("../../TTNorms-Medium.ttf") format("truetype"), url("../TTNorms-Medium.svg#../TTNorms-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
 }
-@font-face {
-  font-family: "TT Norms";
-  src: url("../TTNorms-Regular.eot");
-  src: url("../TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("../TTNorms-Regular.woff2") format("woff2"), url("../TTNorms-Regular.woff") format("woff"), url("../TTNorms-Regular.ttf") format("truetype"), url("../TTNorms-Regular.svg#../TTNorms-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+
+.wrap {
+  display: flex;
+  flex-direction: row;
 }
-@font-face {
-  font-family: "TT Norms";
-  src: url("../TTNorms-Bold.eot");
-  src: url("../TTNorms-Bold.eot?#iefix") format("embedded-opentype"), url("../TTNorms-Bold.woff2") format("woff2"), url("../TTNorms-Bold.woff") format("woff"), url("../TTNorms-Bold.ttf") format("truetype"), url("../TTNorms-Bold.svg#../TTNorms-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+
+.nav_position {
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.title_position {
+  justify-content: center;
+  padding-top: 245px;
+  padding-bottom: 488px;
+}
+
+.gradient_bg {
+  background: linear-gradient(37deg, rgb(50, 50, 100) 43%, rgb(123, 66, 95) 100%);
+}
+
+.text_colour {
+  color: white;
+}
+.text_colour a {
+  color: white;
+}
+
+.first_nav_position {
+  padding-left: 20px;
+}
+
+.localization {
+  padding-left: 5px;
+}
+.localization a:active {
+  border: 1px solid #F0145A;
+  border-radius: 8px;
+  background-color: #F0145A;
+}
+
+.last_nav {
+  justify-content: flex-end;
+}
+.last_nav a {
+  padding: 20px 0 0 15px;
+}
+
+.scroll {
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
