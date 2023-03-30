@@ -67,6 +67,8 @@ a {
 }
 .text_colour a {
   color: white;
+  font-size: 18px;
+  font-weight: medium;
 }
 
 .first_nav_position {
@@ -76,7 +78,12 @@ a {
 .localization {
   padding-left: 5px;
 }
-.localization a:active {
+.localization a {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+.localization a:hover {
   border: 1px solid #F0145A;
   border-radius: 8px;
   background-color: #F0145A;
@@ -95,6 +102,8 @@ a {
 
 .title {
   text-align: center;
+  font-size: 38px;
+  font-weight: medium;
 }
 
 .add_for_facilities {
@@ -118,6 +127,12 @@ a {
 }
 .right_add_position p {
   padding-top: 20px;
+  font-size: 21px;
+  font-weight: 300;
+}
+.right_add_position h3 {
+  font-size: 32px;
+  font-weight: auto;
 }
 
 .left_add_position {
@@ -131,6 +146,10 @@ a {
           background-clip: text;
   color: transparent;
 }
+.left_add_position h2 {
+  font-size: 42px;
+  font-weight: auto;
+}
 
 .about_our_work {
   flex-direction: column;
@@ -142,18 +161,26 @@ a {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
+  font-size: 42px;
+  font-weight: auto;
 }
 .about_our_work p, .about_our_work h4 {
   color: white;
 }
 .about_our_work p {
   color: gray;
+  font-size: 18px;
+  font-weight: 260;
+}
+.about_our_work h4 {
+  font-size: 24px;
 }
 
 .pros_of_us {
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 0;
+  padding-bottom: 70px;
 }
 .pros_of_us li img {
   border: 1px solid white;
@@ -209,7 +236,18 @@ a {
   color: transparent;
 }
 .text_carousel_position :nth-child(1) {
-  color: blue;
+  color: #24A3FF;
+  font-size: 14px;
+}
+.text_carousel_position :nth-child(4) {
+  color: grey;
+  font-size: 18px;
+  font-weight: 400;
+}
+.text_carousel_position :nth-child(3) {
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -262,46 +300,58 @@ a {
 
 .first_prjct {
   grid-area: 2/1/3/2;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
 }
 .first_prjct h5 {
   padding: 48px 0 20px 20px;
+  color: #797995;
+  font-size: 24px;
 }
 .first_prjct p {
   padding-left: 20px;
+  font-size: 18px;
+  color: #C3C3CA;
 }
 
 .second_prjct {
   grid-area: 1/2/2/3;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
 }
 
 .third_prjct {
   grid-area: 2/2/3/3;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
 }
 .third_prjct h5 {
   padding: 48px 0 20px 20px;
+  color: #797995;
+  font-size: 24px;
 }
 .third_prjct p {
   padding-left: 20px;
+  font-size: 18px;
+  color: #C3C3CA;
 }
 
 .fourth_prjct {
   grid-area: 1/3/2/4;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
   border-top-right-radius: 12px;
 }
 
 .fifth_prjct {
   grid-area: 2/3/3/4;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
 }
 .fifth_prjct h5 {
   padding: 48px 0 20px 20px;
+  color: #797995;
+  font-size: 24px;
 }
 .fifth_prjct p {
   padding-left: 20px;
+  font-size: 18px;
+  color: #C3C3CA;
 }
 
 .main_ggrid_down {
@@ -314,37 +364,49 @@ a {
 
 .sixth_prjct {
   grid-area: 1/1/2/2;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
   border-bottom-left-radius: 12px;
 }
 .sixth_prjct h5 {
   padding: 20px 0 20px 20px;
+  color: #797995;
+  font-size: 24px;
 }
 .sixth_prjct p {
   padding-left: 20px;
+  font-size: 18px;
+  color: #C3C3CA;
 }
 
 .seventh_prjct {
   grid-area: 1/2/2/3;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
 }
 .seventh_prjct h5 {
   padding: 76px 0 20px 20px;
+  color: #797995;
+  font-size: 24px;
 }
 .seventh_prjct p {
   padding-left: 20px;
+  font-size: 18px;
+  color: #C3C3CA;
 }
 
 .eighth_prjct {
   grid-area: 1/3/2/4;
-  background-color: #F5F5FA;
+  background-color: #eeeef3;
   border-bottom-right-radius: 12px;
 }
 .eighth_prjct h5 {
   padding: 76px 0 20px 20px;
+  color: #797995;
+  font-size: 24px;
 }
 .eighth_prjct p {
   padding-left: 20px;
+  font-size: 18px;
+  color: #C3C3CA;
 }
 
 .progress_of_success {
@@ -355,59 +417,12 @@ a {
   padding: 30px;
   justify-content: center;
 }
-
-.parent {
-  display: grid;
-  grid-template-columns: repeat(4, 360px);
-  grid-template-rows: repeat(3, 120px);
+.companies_trust h5 {
+  font-size: 18px;
 }
 
-.div1 {
-  grid-area: 1/1/2/2;
-}
-
-.div2 {
-  grid-area: 1/2/2/3;
-}
-
-.div3 {
-  grid-area: 1/3/2/4;
-}
-
-.div4 {
-  grid-area: 1/4/2/5;
-}
-
-.div5 {
-  grid-area: 2/1/3/2;
-}
-
-.div6 {
-  grid-area: 2/2/3/3;
-}
-
-.div7 {
-  grid-area: 2/3/3/4;
-}
-
-.div8 {
-  grid-area: 2/4/3/5;
-}
-
-.div9 {
-  grid-area: 3/1/4/2;
-}
-
-.div10 {
-  grid-area: 3/2/4/3;
-}
-
-.div11 {
-  grid-area: 3/3/4/4;
-}
-
-.div12 {
-  grid-area: 3/4/4/5;
+.section_12img {
+  flex-wrap: wrap;
 }
 
 .unusual_cont {
@@ -419,9 +434,12 @@ a {
 }
 .padd_top h3 {
   padding-bottom: 40px;
+  font-size: 42px;
 }
 .padd_top :nth-child(1) {
   color: rgb(36, 163, 255);
+  font-size: 14px;
+  font-weight: 600;
 }
 .padd_top :nth-child(2) {
   background-image: linear-gradient(53deg, rgb(239, 128, 128) 17%, rgb(240, 20, 90) 100%);
@@ -451,25 +469,22 @@ a {
   background-color: white;
 }
 
-.btn_position {
+.btn {
   position: relative;
 }
-
-.btn {
-  position: absolute;
-  left: 0px;
-  right: 20px;
-  top: 4730px;
-}
 .btn a {
+  position: absolute;
   background-color: #24A3FF;
   color: white;
-  padding: 17px 80px;
+  bottom: 50px;
+  left: 85px;
+  text-align: center;
+  padding: 5px 80px;
   border-radius: 12px;
 }
 
 .publications_bg {
-  background-color: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
+  background-color: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #eeeef3 86.5%);
   overflow: hidden;
 }
 
@@ -544,6 +559,7 @@ a {
 
 .map_section a {
   padding-left: 50px;
+  color: rgb(36, 163, 255);
 }
 
 .tel_number {
@@ -560,4 +576,40 @@ a {
 
 .publications_bg {
   padding-bottom: 30px;
+}
+
+.NAV_FONT :nth-child(4) {
+  font-size: 16;
+  font-weight: 400;
+}
+.NAV_FONT :nth-child(5) {
+  font-size: 16;
+  font-weight: bold;
+}
+
+.gray_dot {
+  color: gray;
+}
+
+.taxes_google {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.publication_date {
+  font-size: 12px;
+  font-weight: bold;
+  color: #B3B3BA;
+}
+
+.FB_img {
+  width: 80%;
+}
+
+.blue_ a {
+  color: rgb(36, 163, 255);
+}
+
+.copyright_company {
+  color: #B3B3BA;
 }/*# sourceMappingURL=styles.css.map */
