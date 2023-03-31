@@ -76,8 +76,12 @@ padding-bottom: 488px;
 
 }
 .gradient_bg{
-    background: linear-gradient(53deg, rgba(51,51,101,1) 75%, rgba(101,62,114,1) 100%);
+   
 // position: relative;
+background: url("../images/blur.png") repeat-x center bottom 200px,
+url("../images/symbol.png") no-repeat center bottom 200px,
+url("../images/pattern.svg") no-repeat center bottom 200px,
+linear-gradient(53deg, rgba(51,51,101,1) 75%, rgba(101,62,114,1) 100%);
 }
 // .gradient_bg::before,.gradient_bg::after{
 //     content: '';
@@ -86,6 +90,7 @@ padding-bottom: 488px;
 // }
 
 .text_colour{
+    
 a{color: white;
 font-size: 18px;
 font-weight: medium;
@@ -117,9 +122,12 @@ background-color: #F0145A;
 .scroll{
     justify-content: center;
 }
-.title{text-align: center;
+.title{
+   
+    text-align: center;
 font-size: 38px;
 font-weight: medium;
+
 }
 // section with facilities 
 .add_for_facilities{
@@ -360,7 +368,7 @@ h5{font-size: 18px;}
     
         
         
-        .unusual_cont{max-width: 1440px;}
+        .unusual_cont{max-width: 1464px;}
         .padd_top{padding-top: 40px;
         h3{padding-bottom: 40px;
         font-size: 42px;
@@ -462,8 +470,13 @@ border-radius: 12px;
                     .line_position{max-width: 400px;
                     padding-bottom: 20px;
                     }
-                    .blur{filter: blur(100px);}
-                    .footer_top_position{justify-content: space-between;}
+                    .blur{background: linear-gradient(180deg, rgba(245, 245, 250, 0) 0%, #F5F5FA 86.5%);
+                    height: 200px;
+                    position: absolute;
+                    
+                    }
+                    .footer_top_position{justify-content: space-between;
+                    }
                     .map_section{
                         a{padding-left: 50px;
                             color:  rgba(36, 163, 255, 1);
@@ -475,6 +488,7 @@ border-radius: 12px;
                     
                     }
                     .publications{
+                        
                  img{padding-bottom: 20px;}
 
                     }
@@ -503,3 +517,10 @@ border-radius: 12px;
                     a{color:  rgba(36, 163, 255, 1);}
                     }
                     .copyright_company{color: #B3B3BA;}
+                    .blur_help{}
+.image_cont{
+    justify-content: center;
+    div{
+    width: 360px;
+    
+}}
