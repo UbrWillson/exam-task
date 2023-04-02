@@ -196,7 +196,8 @@ li{
     }
 }
 }
-.reverse{background: linear-gradient(230deg, rgba(51,51,101,1) 79%, rgba(101,62,114,1) 100%);
+.reverse{background: 
+    linear-gradient(230deg, rgba(51,51,101,1) 79%, rgba(101,62,114,1) 100%);
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 }
@@ -474,7 +475,8 @@ border-radius: 12px;
                     position: absolute;
                     
                     }
-                    .footer_top_position{justify-content: space-between;
+                    .footer_top_position{padding-top: 30px;
+                        justify-content: space-between;
                     }
                     .map_section{
                         a{padding-left: 50px;
@@ -501,6 +503,7 @@ border-radius: 12px;
                     :nth-child(5){font-size: 16;
                         font-weight: bold;
                         }
+                        li{div{a{color: #B3B3BA;}}}
                 
                 }
                 .gray_dot{color: gray;}
@@ -606,3 +609,133 @@ font-weight: 400;
 }
 .for_list{max-width: 1100px;}
 .list_section{padding-bottom: 75px;}
+.keyboard_added{background:  url(../images/Cover_keyboard.png) no-repeat center top,
+    linear-gradient(230deg, rgba(51,51,101,1) 79%, rgba(101,62,114,1) 100%);
+background-size: contain;
+}
+// page about us
+.color_text_aboutPage{a{color: #24A3FF;
+position: relative;
+}
+a:hover{color: #F0145A;
+
+}
+a::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: #F0145A;
+    
+    bottom: -3px;
+transition: 0.5s;
+}
+}
+a:hover::before{width: 100%;}
+.for_unusual_p{max-width: 1095px;
+margin: 0 auto;
+}
+.team_list{
+    justify-content: space-between;
+    
+    
+    ul{padding: 0 0 0 20px;
+margin: 0;
+li{p{margin: 0;}}
+}
+
+}
+.law_amenities{justify-content: space-between;
+h3{background-image: linear-gradient(53deg, rgba(239,128,128,1) 17%, rgba(240,20,90,1) 100%);
+    background-clip: text;
+    color: transparent;
+       font-size: 36px;
+       font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+    }
+       p{margin: 0;
+    padding-bottom: 20px;
+    
+
+    }
+}
+.paragraph_numbers{background-image: linear-gradient(53deg, rgba(239,128,128,1) 17%, rgba(240,20,90,1) 100%);
+    background-clip: text;
+    color: transparent;
+       font-size: 36px;
+       font-weight: bold;
+    
+    }
+       .team_list_item{justify-content: space-between;}
+       .paragraph_properties{:last-child{padding-bottom: 0;}
+    p{font-size: 21px;}
+    }
+    .bg_team{background-image: url(../images/bg_team.png);
+        
+        background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       
+       
+    div{text-shadow: #282856CC 1px 1px 20px ;
+        
+        h2{text-transform: uppercase;
+    font-size: 96px;
+    font-weight: bold;
+    color: #F5F5FA;
+    
+    padding: 200px 257px;
+    letter-spacing: 63px;
+    }}
+    }
+    .team_img{justify-content: center;
+    align-content: center;
+    }
+    .bottom_position_sect{padding-bottom: 100px;}
+    .sect_position{padding: 80px 0 90px 0;
+    }
+    .condition{
+    justify-content: space-between;
+    h4{background-image: linear-gradient(53deg, rgba(239,128,128,1) 17%, rgba(240,20,90,1) 100%);
+        background-clip: text;
+        color: transparent;
+           font-size: 36px;
+           font-weight: bold;}
+           p{padding-right: 40px;
+            font-size: 21px;
+        }
+    }
+    .mostly_gray_bg{
+        background-color: #F5F5FA;
+    }
+    .achievments{justify-content: center;
+    div{p{padding: 30px 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #323264;
+    font-weight: bold;
+    }}
+    }
+    .carousel_list{
+        padding-bottom: 30px;
+        justify-content: space-between;
+        div{background-color: white;
+    border-radius: 12px;
+    
+    }}
+    .carousel_list_item{justify-content: center;}
+    .carousel_list_cont{max-width: 1320px;
+    
+    }
+    .carousel_dots{flex-direction:row;
+    justify-content: center;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    li{padding-right: 15px;}
+    }
+    .blue_clr{color: #24A3FF;}
+        
+   
+
+    
