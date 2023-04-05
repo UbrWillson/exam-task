@@ -775,6 +775,49 @@ color: #B3B3BA;
 
 
 // Member page 
-.down_shift{padding-bottom: 80px;}
+.down_shift{padding-bottom: 30px;}
 .width_1100_container{max-width: 1200px;}
-.row{justify-content: center;}
+.row{justify-content: center;
+
+}
+.coloumn{flex-direction: column;}
+.links{padding-bottom: 20px;
+    :nth-child(1){p{
+    color: #B3B3BA;
+    font-size: 16px;
+   }}
+:nth-child(2){
+    padding: 0 5px;
+}
+}
+.Alexander_Kac_member{
+    
+    justify-content: center;
+    h3,p,a{margin: 0;}
+p{font-size: 18px;
+font-weight: 400;
+}
+h3{color: #323264;
+font-size: 14px;
+letter-spacing: 1px;
+padding-bottom: 10px;
+}
+
+}
+
+
+.name_article{background-image: linear-gradient(53deg, rgba(239,128,128,1) 17%, rgba(240,20,90,1) 100%);
+    background-clip: text;
+    color: transparent;
+       font-size: 42px;
+       font-weight: 700;
+    }
+
+       
+ .fixed{border-radius: 0;}
+ .long_paragraph{padding: 40px 0;}
+ .uni_name{padding-bottom: 40px;}
+ .top_shift{padding-top: 40px;}
+ .image_box{padding-right: 40px;}
+ .main_position{padding-bottom: 80px;}
+
