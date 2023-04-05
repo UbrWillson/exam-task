@@ -735,7 +735,46 @@ h3{background-image: linear-gradient(53deg, rgba(239,128,128,1) 17%, rgba(240,20
     li{padding-right: 15px;}
     }
     .blue_clr{color: #24A3FF;}
-        
-   
-
+    // team page
+    .team_nav_position{padding-bottom: 80px;}
+    .centered {justify-content: center;
     
+    }
+    .hero_tag{background-image: linear-gradient(53deg, rgba(239,128,128,1) 17%, rgba(240,20,90,1) 100%);
+        background-clip: text;
+        color: transparent;
+           font-size: 42px;
+           font-weight: bold;}
+           .team_article{padding-bottom: 80px;}
+           .btn_team{a{border-radius: 70%;
+        background-color: #F5F5FA;
+    padding: 10px 16px;
+    }
+        }
+    
+    .pre-classes{
+        p{margin: 0;}
+    }
+
+    .btn_team{padding: 35px 0 0 120px ;}
+    .p_position{:nth-child(1){padding: 20px 0 5px 0;
+    font-size: 18px;
+    
+    }
+:nth-child(2){font-size: 16px;
+color: #B3B3BA;
+}
+}
+.member_list{padding-right: 19px;
+
+}
+.list_bottom_pad{padding-bottom: 40px;}
+.all_team_members{padding-bottom: 60px;}
+.footer_bg{background-color: #F5F5FA;}
+.footer_position{padding-bottom: 30px;}
+
+
+// Member page 
+.down_shift{padding-bottom: 80px;}
+.width_1100_container{max-width: 1200px;}
+.row{justify-content: center;}
